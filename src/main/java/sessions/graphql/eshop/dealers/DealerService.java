@@ -1,11 +1,13 @@
 package sessions.graphql.eshop.dealers;
 
+import org.springframework.stereotype.Service;
 import sessions.graphql.eshop.mockgenerators.DealerDataGenerator;
 
 import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 
+@Service
 public class DealerService {
 
     List<Dealer> dealers = new ArrayList<>();
@@ -17,6 +19,6 @@ public class DealerService {
 
 
     public List<Dealer> getAll(){
-
+        return dealers;
     }
 }
