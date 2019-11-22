@@ -14,4 +14,9 @@ public class DealerService {
     public void init(){
         dealers = DealerDataGenerator.generate();
     }
+
+
+    public List<Dealer> getAll(){
+
+    }
 }

@@ -14,4 +14,9 @@ public class InventoryService {
 
         this.inventories = InventoryDataGenerator.generate();
     }
+
+    public  List<Inventory> getAll(){
+
+        return inventories;
+    }
 }

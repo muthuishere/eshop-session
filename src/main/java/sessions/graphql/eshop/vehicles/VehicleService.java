@@ -15,4 +15,7 @@ public class VehicleService {
 
         vehicles = VehicleDataGenerator.generate();
     }
+    public  List<Vehicle> getAll(){
+        return vehicles;
+    }
 }
